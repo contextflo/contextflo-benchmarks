@@ -63,3 +63,24 @@ context into the "without" runs, and two orgs can be inspected side by side.
 `scorer.py` is DABstep's official scorer, unchanged. Note its quirk: a leading minus sign
 is ignored, so `-0.95` and `0.95` score as equal. That is the leaderboard's rule, so it
 is ours too.
+
+## How a try is marked right or wrong
+
+The numbers in the post use this rule, applied by `harness/heldout_report.py` (held-out
+test) and `harness/rescore.py` (exploration), without rerunning the agent:
+
+1. **The answer was submitted to the leaderboard before.** We look up that exact answer
+   string (whitespace trimmed) in DABstep's published per-submission scores. It is
+   **right** if the official scorer accepted it more often than it rejected it, otherwise
+   **wrong**. This is the official scorer against the hidden answer, not our key.
+2. **The answer was never submitted.** We fall back to a strict check against the most
+   precise answer the leaderboard accepted: the official scorer's numeric tolerance, but
+   the sign must match and labels (card scheme, ACI, merchant) must match exactly. These
+   are marked unverified in the output.
+
+The post's first draft scored with the consensus key alone and reported 77%. That key
+was too forgiving on rounding (it accepted `-9.4166` where the official scorer wants
+`-9.42`), so the published numbers use the rule above.
+
+Every try's verdict, and which of the two rules decided it, is in the report output
+(`official`, `official_accepted`, `official_rejected`, `evidence`).
