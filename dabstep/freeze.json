@@ -1,0 +1,43 @@
+{
+  "frozen_at": "2026-11-17",
+  "purpose": "Held-out test: do the four notes (written from misses on the 25 tasks in tasks.txt) still help on new questions? Everything below is fixed before the first held-out run. Changing any of it after seeing held-out results turns the held-out set into development data.",
+  "tasks": {
+    "file": "dabstep/heldout.txt",
+    "sha256": "beb0ecfe800ce0815c91ed116c21d2d816c6f7c022928fb04c55a4f6e058fb66",
+    "families_file": "dabstep/heldout.json",
+    "families_sha256": "0d588496c2f0b084a2312fad0c236e8906065c3fd8ddf11c851b7024211916d8",
+    "count": 42,
+    "selection": "dabstep/select_heldout.py --per-family 3 --min-support 20: hard, no giveaway answers, trusted answer, not in tasks.txt, 3 per family from all 14 families (families.py), ordered by hash.",
+    "unseen_families": ["average_transaction_value", "fee_ids_by_account_aci", "fee_restricted_to_account_type", "merchants_affected_by_fee"]
+  },
+  "setups": {
+    "heldout-tables": {"profile": "benchmark-raw", "context": "none: tables only"},
+    "heldout-docs": {"profile": "benchmark-context", "context": "dabstep/context/context.json (DABstep manual and readme as table, column and concept descriptions)"},
+    "heldout-docs-notes": {"profile": "benchmark-learned", "context": "context.json plus all four notes in dabstep/context/learned.json, in order: empty-means-all, sum-all-matching-rules, monthly-buckets, steering-questions"}
+  },
+  "context_files": {
+    "dabstep/context/context.json": "3aa3b40f3b880e9d00e98ed3ab4dda20db320a69ab417f4ac8372aa7b71d60a7",
+    "dabstep/context/learned.json": "cc9b1aea97faff964c143dbbdfee9a7e8658caef3c0a3621d1d4ed2dac1418bd"
+  },
+  "agent": {
+    "model": "claude-haiku-5-5",
+    "runs_per_task": 3,
+    "system_prompt_file": "dabstep/benchmark.py",
+    "system_prompt_sha256_of_file": "e6d93874ebf1812999af94e4b960c76d3d3a0d486c34a66fa9656336347804bd",
+    "allowed_tools": "harness/agent.py READ_ONLY_TOOLS",
+    "max_turns": 40
+  },
+  "scoring": {
+    "unit": "the task: report accuracy over 42 tasks x 3 runs, and per task how many of 3 runs were right; never treat the 126 runs as independent",
+    "primary": "evidence: if the exact answer string (trimmed) was submitted to the DABstep leaderboard, the majority leaderboard verdict on it (dabstep/data/raw/task_scores); mixed verdicts are reported as mixed and counted by majority",
+    "fallback": "strict: if never submitted, the official scorer's tolerance against the most precise answer the leaderboard accepted for that task, with the sign required to match and labels (card scheme, ACI, merchant) required to match exactly; reported as unverified",
+    "also_reported": ["current: the official scorer against our consensus answer key, as recorded at run time", "strict against the consensus key"],
+    "scorer_sha256": "bebb6121fbdb6c321ccc8fabbb81e5ea96cc23c62c15b37c2e235c32b594f97a",
+    "manual_review": "every task where the scoring views disagree is reviewed by hand and the note kept with the result; verdicts are not changed by hand"
+  },
+  "families_file_sha256": "3805407084f6709da947ff09146deb36f005cf8f5237fee2793a3fbd12e37898",
+  "rule": "No change to notes, docs, prompt, tools, model, task list or scoring after the first held-out run starts. Bug fixes to the harness that do not change what the agent sees are allowed and logged here.",
+  "change_log": [
+    "2026-11-17, before any held-out result was scored: the strict fallback's 'most precise accepted answer' applies only when the consensus answer is a single number. Found on task 842, where the leaderboard accepted a bare number for a labelled list because the official scorer ignores labels."
+  ]
+}

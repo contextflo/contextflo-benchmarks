@@ -1,0 +1,451 @@
+setup,run_id,task_id,answer,expected,current,strict,official,evidence,official_accepted,official_rejected,note
+raw,1455-1,1455,"[""F""]",B,False,False,rejected,False,0,35,
+raw,1455-2,1455,"[""B""]",B,True,True,accepted,True,24,0,
+raw,1455-3,1455,"[""F""]",B,False,False,rejected,False,0,35,
+raw,2419-1,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+raw,2419-2,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+raw,2419-3,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+raw,2121-1,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+raw,2121-2,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+raw,2121-3,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+raw,1577-1,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+raw,1577-2,1577,6.192667,6.580365,False,False,rejected,False,0,176,
+raw,1577-3,1577,6.192667,6.580365,False,False,rejected,False,0,176,
+raw,1684-1,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+raw,1684-2,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+raw,1684-3,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+raw,1604-1,1604,5.320345,5.579686,False,False,rejected,False,0,189,
+raw,1604-2,1604,5.320345,5.579686,False,False,rejected,False,0,189,
+raw,1604-3,1604,5.320345,5.579686,False,False,rejected,False,0,189,
+raw,1892-1,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+raw,1892-2,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+raw,1892-3,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+raw,2539-1,2539,2075.435470,10160.625971,False,False,rejected,False,0,40,
+raw,2539-2,2539,2075.435470,10160.625971,False,False,rejected,False,0,40,
+raw,2539-3,2539,2075.435470,10160.625971,False,False,rejected,False,0,40,
+raw,2530-1,2530,173.597143,6690.646000,False,False,unseen,False,0,0,
+raw,2530-2,2530,173.597143,6690.646000,False,False,unseen,False,0,0,
+raw,2530-3,2530,173.597143,6690.646000,False,False,unseen,False,0,0,
+raw,2771-1,2771,C:1323.61,E,False,False,unseen,False,0,0,
+raw,2771-2,2771,SwiftCharge:109.97,E,False,False,rejected,False,0,12,
+raw,2771-3,2771,B:1167.15,E,False,False,rejected,False,0,27,
+raw,1287-1,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+raw,1287-2,1287,2.866800,2.792051,False,False,rejected,False,0,336,
+raw,1287-3,1287,2.866800,2.792051,False,False,rejected,False,0,336,
+raw,2759-1,2759,GlobalCard:10839.71,TransactPlus:90665.36,False,False,unseen,False,0,0,
+raw,2759-2,2759,TransactPlus:13341.54,TransactPlus:90665.36,False,False,rejected,False,0,53,
+raw,2759-3,2759,TransactPlus:52649.84,TransactPlus:90665.36,False,False,rejected,False,0,47,
+raw,1538-1,1538,6.394545,5.625868,False,False,rejected,False,0,199,
+raw,1538-2,1538,6.394545,5.625868,False,False,rejected,False,0,199,
+raw,1538-3,1538,6.394545,5.625868,False,False,rejected,False,0,199,
+raw,2584-1,2584,GlobalCard:206.79,NexPay:372.69,False,False,rejected,False,0,11,
+raw,2584-2,2584,GlobalCard:206.76,NexPay:372.69,False,False,unseen,False,0,0,
+raw,2584-3,2584,GlobalCard:148.74,NexPay:372.69,False,False,unseen,False,0,0,
+raw,1731-1,1731,8.62,24.91,False,False,rejected,False,0,53,
+raw,1731-2,1731,8.62,24.91,False,False,rejected,False,0,53,
+raw,1731-3,1731,,24.91,False,False,unseen,False,0,0,
+raw,1715-1,1715,6.50,9.17,False,False,rejected,False,0,151,
+raw,1715-2,1715,,9.17,False,False,unseen,False,0,0,
+raw,1715-3,1715,6.50,9.17,False,False,rejected,False,0,151,
+raw,2441-1,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+raw,2441-2,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+raw,2441-3,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+raw,1438-1,1438,"7231, 8011, 7298, 8062, 8049, 7991, 8021","5411, 5412, 5499, 5812, 5911, 5983",False,False,unseen,False,0,0,
+raw,1438-2,1438,"7298, 7991, 8011, 8021, 8049, 8062","5411, 5412, 5499, 5812, 5911, 5983",False,False,rejected,False,0,77,
+raw,1438-3,1438,"5411, 5499, 5812, 5983","5411, 5412, 5499, 5812, 5911, 5983",False,False,rejected,False,0,1,
+raw,2316-1,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+raw,2316-2,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+raw,2316-3,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+raw,1511-1,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+raw,1511-2,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+raw,1511-3,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+raw,2641-1,2641,TransactPlus:2228.65,TransactPlus:3561.77,False,False,rejected,False,0,51,
+raw,2641-2,2641,TransactPlus:2228.65,TransactPlus:3561.77,False,False,rejected,False,0,51,
+raw,2641-3,2641,TransactPlus:562.38,TransactPlus:3561.77,False,False,rejected,False,0,80,
+raw,2606-1,2606,Not Applicable,NexPay:1103.19,False,False,rejected,False,0,420,
+raw,2606-2,2606,SwiftCharge:136.00,NexPay:1103.19,False,False,rejected,False,0,1,
+raw,2606-3,2606,SwiftCharge:81.92,NexPay:1103.19,False,False,rejected,False,0,6,
+raw,1447-1,1447,"[""C""]",['C'],True,True,accepted,True,36,0,
+raw,1447-2,1447,[A],['C'],False,False,rejected,False,0,9,
+raw,1447-3,1447,"[""C""]",['C'],True,True,accepted,True,36,0,
+raw,2229-1,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+raw,2229-2,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+raw,2229-3,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+raw,2708-1,2708,GlobalCard:66.84,D,False,False,unseen,False,0,0,
+raw,2708-2,2708,SwiftCharge:14.43,D,False,False,rejected,False,0,20,
+raw,2708-3,2708,SwiftCharge:14.43,D,False,False,rejected,False,0,20,
+docs,1455-1,1455,"[""F""]",B,False,False,rejected,False,0,35,
+docs,1455-2,1455,"[""F""]",B,False,False,rejected,False,0,35,
+docs,1455-3,1455,"[""F""]",B,False,False,rejected,False,0,35,
+docs,2419-1,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+docs,2419-2,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+docs,2419-3,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+docs,2121-1,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+docs,2121-2,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+docs,2121-3,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+docs,1577-1,1577,6.192667,6.580365,False,False,rejected,False,0,176,
+docs,1577-2,1577,6.192667,6.580365,False,False,rejected,False,0,176,
+docs,1577-3,1577,6.192667,6.580365,False,False,rejected,False,0,176,
+docs,1684-1,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+docs,1684-2,1684,,"64, 381, 454, 473, 572, 813",False,False,unseen,False,0,0,
+docs,1684-3,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+docs,1604-1,1604,5.320345,5.579686,False,False,rejected,False,0,189,
+docs,1604-2,1604,5.320345,5.579686,False,False,rejected,False,0,189,
+docs,1604-3,1604,5.320345,5.579686,False,False,rejected,False,0,189,
+docs,1892-1,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+docs,1892-2,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+docs,1892-3,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+docs,2539-1,2539,289.943602,10160.625971,False,False,rejected,False,0,5,
+docs,2539-2,2539,2075.435470,10160.625971,False,False,rejected,False,0,40,
+docs,2539-3,2539,8504.412599,10160.625971,False,False,rejected,False,0,1,
+docs,2530-1,2530,Not Applicable,6690.646000,False,False,rejected,False,0,444,
+docs,2530-2,2530,4414.495438,6690.646000,False,False,rejected,False,0,2,
+docs,2530-3,2530,Not Applicable,6690.646000,False,False,rejected,False,0,444,
+docs,2771-1,2771,SwiftCharge:109.97,E,False,False,rejected,False,0,12,
+docs,2771-2,2771,SwiftCharge:109.97,E,False,False,rejected,False,0,12,
+docs,2771-3,2771,C:1323.61,E,False,False,unseen,False,0,0,
+docs,1287-1,1287,2.866800,2.792051,False,False,rejected,False,0,336,
+docs,1287-2,1287,2.866800,2.792051,False,False,rejected,False,0,336,
+docs,1287-3,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+docs,2759-1,2759,TransactPlus:52649.84,TransactPlus:90665.36,False,False,rejected,False,0,47,
+docs,2759-2,2759,TransactPlus:13341.54,TransactPlus:90665.36,False,False,rejected,False,0,53,
+docs,2759-3,2759,Not Applicable,TransactPlus:90665.36,False,False,rejected,False,0,466,
+docs,1538-1,1538,6.394545,5.625868,False,False,rejected,False,0,199,
+docs,1538-2,1538,6.394545,5.625868,False,False,rejected,False,0,199,
+docs,1538-3,1538,6.394545,5.625868,False,False,rejected,False,0,199,
+docs,2584-1,2584,SwiftCharge:61.82,NexPay:372.69,False,False,rejected,False,0,42,
+docs,2584-2,2584,TransactPlus:671.01,NexPay:372.69,False,False,rejected,False,0,9,
+docs,2584-3,2584,GlobalCard:206.79,NexPay:372.69,False,False,rejected,False,0,11,
+docs,1731-1,1731,8.62,24.91,False,False,rejected,False,0,53,
+docs,1731-2,1731,8.62,24.91,False,False,rejected,False,0,53,
+docs,1731-3,1731,Not Applicable,24.91,False,False,rejected,False,0,303,
+docs,1715-1,1715,6.50,9.17,False,False,rejected,False,0,151,
+docs,1715-2,1715,Not Applicable,9.17,False,False,rejected,False,0,377,
+docs,1715-3,1715,6.50,9.17,False,False,rejected,False,0,151,
+docs,2441-1,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+docs,2441-2,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+docs,2441-3,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+docs,1438-1,1438,"7231, 7298, 7991, 8011, 8021, 8049, 8062","5411, 5412, 5499, 5812, 5911, 5983",False,False,rejected,False,0,360,
+docs,1438-2,1438,"7991, 7298, 8011, 8021, 8049, 8062","5411, 5412, 5499, 5812, 5911, 5983",False,False,unseen,False,0,0,
+docs,1438-3,1438,"5983, 5812, 5411, 5499","5411, 5412, 5499, 5812, 5911, 5983",False,False,unseen,False,0,0,
+docs,2316-1,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+docs,2316-2,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+docs,2316-3,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+docs,1511-1,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+docs,1511-2,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+docs,1511-3,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+docs,2641-1,2641,TransactPlus:562.38,TransactPlus:3561.77,False,False,rejected,False,0,80,
+docs,2641-2,2641,TransactPlus:562.38,TransactPlus:3561.77,False,False,rejected,False,0,80,
+docs,2641-3,2641,TransactPlus:2228.65,TransactPlus:3561.77,False,False,rejected,False,0,51,
+docs,2606-1,2606,SwiftCharge:959.38,NexPay:1103.19,False,False,unseen,False,0,0,
+docs,2606-2,2606,Not Applicable,NexPay:1103.19,False,False,rejected,False,0,420,
+docs,2606-3,2606,NexPay:52.98,NexPay:1103.19,False,False,unseen,False,0,0,
+docs,1447-1,1447,"[""C""]",['C'],True,True,accepted,True,36,0,
+docs,1447-2,1447,"[""C""]",['C'],True,True,accepted,True,36,0,
+docs,1447-3,1447,"[""C""]",['C'],True,True,accepted,True,36,0,
+docs,2229-1,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+docs,2229-2,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+docs,2229-3,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+docs,2708-1,2708,B:226.81,D,False,False,rejected,False,0,7,
+docs,2708-2,2708,SwiftCharge:14.43,D,False,False,rejected,False,0,20,
+docs,2708-3,2708,B:198.13,D,False,False,unseen,False,0,0,
+r1,1455-1,1455,"[""F""]",B,False,False,rejected,False,0,35,
+r1,1455-2,1455,"[""F""]",B,False,False,rejected,False,0,35,
+r1,1455-3,1455,['F'],B,False,False,rejected,False,0,377,
+r1,2419-1,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r1,2419-2,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r1,2419-3,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r1,2121-1,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r1,2121-2,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r1,2121-3,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r1,1577-1,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r1,1577-2,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r1,1577-3,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r1,1684-1,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+r1,1684-2,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+r1,1684-3,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+r1,1604-1,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r1,1604-2,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r1,1604-3,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r1,1892-1,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r1,1892-2,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r1,1892-3,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r1,2539-1,2539,-58.727123,10160.625971,False,False,unseen,False,0,0,
+r1,2539-2,2539,2075.435470,10160.625971,False,False,rejected,False,0,40,
+r1,2539-3,2539,-58.727123,10160.625971,False,False,unseen,False,0,0,
+r1,2530-1,2530,488.417011,6690.646000,False,False,rejected,False,0,39,
+r1,2530-2,2530,488.417011,6690.646000,False,False,rejected,False,0,39,
+r1,2530-3,2530,488.417011,6690.646000,False,False,rejected,False,0,39,
+r1,2771-1,2771,NexPay:135.12,E,False,False,rejected,False,0,2,
+r1,2771-2,2771,B:1114.63,E,False,False,rejected,False,0,7,
+r1,2771-3,2771,SwiftCharge:109.97,E,False,False,rejected,False,0,12,
+r1,1287-1,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r1,1287-2,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r1,1287-3,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r1,2759-1,2759,TransactPlus:52649.84,TransactPlus:90665.36,False,False,rejected,False,0,47,
+r1,2759-2,2759,TransactPlus:13341.54,TransactPlus:90665.36,False,False,rejected,False,0,53,
+r1,2759-3,2759,GlobalCard:14020.37,TransactPlus:90665.36,False,False,rejected,False,0,1,
+r1,1538-1,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r1,1538-2,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r1,1538-3,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r1,2584-1,2584,GlobalCard:148.74,NexPay:372.69,False,False,unseen,False,0,0,
+r1,2584-2,2584,GlobalCard:206.79,NexPay:372.69,False,False,rejected,False,0,11,
+r1,2584-3,2584,GlobalCard:148.74,NexPay:372.69,False,False,unseen,False,0,0,
+r1,1731-1,1731,8.62,24.91,False,False,rejected,False,0,53,
+r1,1731-2,1731,8.62,24.91,False,False,rejected,False,0,53,
+r1,1731-3,1731,,24.91,False,False,unseen,False,0,0,
+r1,1715-1,1715,,9.17,False,False,unseen,False,0,0,
+r1,1715-2,1715,,9.17,False,False,unseen,False,0,0,
+r1,1715-3,1715,,9.17,False,False,unseen,False,0,0,
+r1,2441-1,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r1,2441-2,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r1,2441-3,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r1,1438-1,1438,"8011, 8021, 7298, 8062, 8049, 7991","5411, 5412, 5499, 5812, 5911, 5983",False,False,unseen,False,0,0,
+r1,1438-2,1438,"7298, 7991, 8011, 8021, 8049, 8062","5411, 5412, 5499, 5812, 5911, 5983",False,False,rejected,False,0,77,
+r1,1438-3,1438,"8011, 8021, 8062, 8049, 7991, 7298","5411, 5412, 5499, 5812, 5911, 5983",False,False,unseen,False,0,0,
+r1,2316-1,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r1,2316-2,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r1,2316-3,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r1,1511-1,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r1,1511-2,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r1,1511-3,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r1,2641-1,2641,TransactPlus:2228.65,TransactPlus:3561.77,False,False,rejected,False,0,51,
+r1,2641-2,2641,TransactPlus:2228.65,TransactPlus:3561.77,False,False,rejected,False,0,51,
+r1,2641-3,2641,TransactPlus:2228.65,TransactPlus:3561.77,False,False,rejected,False,0,51,
+r1,2606-1,2606,SwiftCharge:82.37,NexPay:1103.19,False,False,rejected,False,0,77,
+r1,2606-2,2606,Not Applicable,NexPay:1103.19,False,False,rejected,False,0,420,
+r1,2606-3,2606,NexPay:52.98,NexPay:1103.19,False,False,unseen,False,0,0,
+r1,1447-1,1447,"[""G""]",['C'],False,False,rejected,False,0,3,
+r1,1447-2,1447,"[""C""]",['C'],True,True,accepted,True,36,0,
+r1,1447-3,1447,"[""C""]",['C'],True,True,accepted,True,36,0,
+r1,2229-1,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r1,2229-2,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r1,2229-3,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r1,2708-1,2708,SwiftCharge:14.43,D,False,False,rejected,False,0,20,
+r1,2708-2,2708,SwiftCharge:14.43,D,False,False,rejected,False,0,20,
+r1,2708-3,2708,B:198.14,D,False,False,rejected,False,0,43,
+r2,1455-1,1455,"[""B""]",B,True,True,accepted,True,24,0,
+r2,1455-2,1455,[B],B,True,True,accepted,True,26,0,
+r2,1455-3,1455,"[""B""]",B,True,True,accepted,True,24,0,
+r2,2419-1,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r2,2419-2,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r2,2419-3,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r2,2121-1,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r2,2121-2,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r2,2121-3,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r2,1577-1,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r2,1577-2,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r2,1577-3,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r2,1684-1,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+r2,1684-2,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+r2,1684-3,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+r2,1604-1,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r2,1604-2,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r2,1604-3,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r2,1892-1,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r2,1892-2,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r2,1892-3,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r2,2539-1,2539,10160.625971,10160.625971,True,True,accepted,True,156,0,
+r2,2539-2,2539,10160.625971,10160.625971,True,True,accepted,True,156,0,
+r2,2539-3,2539,10160.625971,10160.625971,True,True,accepted,True,156,0,
+r2,2530-1,2530,6690.646000,6690.646000,True,True,mixed,True,125,1,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,2530-2,2530,6690.646000,6690.646000,True,True,mixed,True,125,1,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,2530-3,2530,6690.646000,6690.646000,True,True,mixed,True,125,1,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,2771-1,2771,GlobalCard:0.00,E,False,False,rejected,False,0,14,
+r2,2771-2,2771,GlobalCard:0.00,E,False,False,rejected,False,0,14,
+r2,2771-3,2771,GlobalCard:0.00,E,False,False,rejected,False,0,14,
+r2,1287-1,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r2,1287-2,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r2,1287-3,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r2,2759-1,2759,TransactPlus:90665.36,TransactPlus:90665.36,True,True,mixed,True,123,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,2759-2,2759,TransactPlus:22884.30,TransactPlus:90665.36,False,False,rejected,False,0,38,
+r2,2759-3,2759,TransactPlus:90665.36,TransactPlus:90665.36,True,True,mixed,True,123,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,1538-1,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r2,1538-2,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r2,1538-3,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r2,2584-1,2584,NexPay:372.69,NexPay:372.69,True,True,mixed,True,128,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,2584-2,2584,NexPay:372.69,NexPay:372.69,True,True,mixed,True,128,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,2584-3,2584,NexPay:372.69,NexPay:372.69,True,True,mixed,True,128,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,1731-1,1731,24.91,24.91,True,True,mixed,True,237,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,1731-2,1731,24.91,24.91,True,True,mixed,True,237,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,1731-3,1731,24.91,24.91,True,True,mixed,True,237,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,1715-1,1715,9.17,9.17,True,True,mixed,True,220,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,1715-2,1715,9.17,9.17,True,True,mixed,True,220,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,1715-3,1715,9.17,9.17,True,True,mixed,True,220,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,2441-1,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r2,2441-2,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r2,2441-3,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r2,1438-1,1438,"8021, 8011","5411, 5412, 5499, 5812, 5911, 5983",False,False,unseen,False,0,0,
+r2,1438-2,1438,"8011, 8021","5411, 5412, 5499, 5812, 5911, 5983",False,False,rejected,False,0,31,
+r2,1438-3,1438,"8011, 8021","5411, 5412, 5499, 5812, 5911, 5983",False,False,rejected,False,0,31,
+r2,2316-1,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r2,2316-2,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r2,2316-3,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r2,1511-1,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r2,1511-2,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r2,1511-3,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r2,2641-1,2641,TransactPlus:902.64,TransactPlus:3561.77,False,False,rejected,False,0,37,
+r2,2641-2,2641,TransactPlus:902.64,TransactPlus:3561.77,False,False,rejected,False,0,37,
+r2,2641-3,2641,TransactPlus:902.64,TransactPlus:3561.77,False,False,rejected,False,0,37,
+r2,2606-1,2606,NexPay:1103.19,NexPay:1103.19,True,True,mixed,True,124,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,2606-2,2606,NexPay:1103.19,NexPay:1103.19,True,True,mixed,True,124,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,2606-3,2606,NexPay:1103.19,NexPay:1103.19,True,True,mixed,True,124,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r2,1447-1,1447,"[""B""]",['C'],False,False,rejected,False,0,3,
+r2,1447-2,1447,"[""B""]",['C'],False,False,rejected,False,0,3,
+r2,1447-3,1447,[B],['C'],False,False,rejected,False,0,8,
+r2,2229-1,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r2,2229-2,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r2,2229-3,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r2,2708-1,2708,D:281.39,D,True,False,unseen,False,0,0,"official scorer accepts, strict rejects ()"
+r2,2708-2,2708,SwiftCharge:14.43,D,False,False,rejected,False,0,20,
+r2,2708-3,2708,NexPay:0.00,D,False,False,rejected,False,0,9,
+r3,1455-1,1455,"[""B""]",B,True,True,accepted,True,24,0,
+r3,1455-2,1455,"[""B""]",B,True,True,accepted,True,24,0,
+r3,1455-3,1455,"[""B""]",B,True,True,accepted,True,24,0,
+r3,2419-1,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r3,2419-2,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r3,2419-3,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r3,2121-1,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r3,2121-2,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r3,2121-3,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r3,1577-1,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r3,1577-2,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r3,1577-3,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r3,1684-1,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+r3,1684-2,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+r3,1684-3,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+r3,1604-1,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r3,1604-2,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r3,1604-3,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r3,1892-1,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r3,1892-2,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r3,1892-3,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r3,2539-1,2539,10160.625971,10160.625971,True,True,accepted,True,156,0,
+r3,2539-2,2539,10160.625971,10160.625971,True,True,accepted,True,156,0,
+r3,2539-3,2539,10160.625971,10160.625971,True,True,accepted,True,156,0,
+r3,2530-1,2530,6690.646000,6690.646000,True,True,mixed,True,125,1,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,2530-2,2530,6690.646000,6690.646000,True,True,mixed,True,125,1,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,2530-3,2530,6690.646000,6690.646000,True,True,mixed,True,125,1,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,2771-1,2771,SwiftCharge:66.46,E,False,False,rejected,False,0,5,
+r3,2771-2,2771,GlobalCard:0.00,E,False,False,rejected,False,0,14,
+r3,2771-3,2771,E:1298.67,E,True,False,rejected,False,0,1,"official scorer accepts, strict rejects (); leaderboard rejected this exact answer: our answer key or tolerance let it through"
+r3,1287-1,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r3,1287-2,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r3,1287-3,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r3,2759-1,2759,TransactPlus:90665.36,TransactPlus:90665.36,True,True,mixed,True,123,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,2759-2,2759,TransactPlus:90665.36,TransactPlus:90665.36,True,True,mixed,True,123,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,2759-3,2759,TransactPlus:22884.30,TransactPlus:90665.36,False,False,rejected,False,0,38,
+r3,1538-1,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r3,1538-2,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r3,1538-3,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r3,2584-1,2584,NexPay:372.69,NexPay:372.69,True,True,mixed,True,128,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,2584-2,2584,NexPay:372.69,NexPay:372.69,True,True,mixed,True,128,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,2584-3,2584,SwiftCharge:131.82,NexPay:372.69,False,False,rejected,False,0,16,
+r3,1731-1,1731,24.91,24.91,True,True,mixed,True,237,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,1731-2,1731,24.91,24.91,True,True,mixed,True,237,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,1731-3,1731,24.91,24.91,True,True,mixed,True,237,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,1715-1,1715,9.17,9.17,True,True,mixed,True,220,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,1715-2,1715,9.17,9.17,True,True,mixed,True,220,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,1715-3,1715,9.17,9.17,True,True,mixed,True,220,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,2441-1,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r3,2441-2,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r3,2441-3,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r3,1438-1,1438,"7298, 7991, 8011, 8021, 8049, 8062","5411, 5412, 5499, 5812, 5911, 5983",False,False,rejected,False,0,77,
+r3,1438-2,1438,"8021, 8011","5411, 5412, 5499, 5812, 5911, 5983",False,False,unseen,False,0,0,
+r3,1438-3,1438,"8021, 8011","5411, 5412, 5499, 5812, 5911, 5983",False,False,unseen,False,0,0,
+r3,2316-1,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r3,2316-2,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r3,2316-3,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r3,1511-1,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r3,1511-2,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r3,1511-3,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r3,2641-1,2641,TransactPlus:3561.77,TransactPlus:3561.77,True,True,accepted,True,132,0,
+r3,2641-2,2641,TransactPlus:3561.77,TransactPlus:3561.77,True,True,accepted,True,132,0,
+r3,2641-3,2641,TransactPlus:902.64,TransactPlus:3561.77,False,False,rejected,False,0,37,
+r3,2606-1,2606,NexPay:1103.19,NexPay:1103.19,True,True,mixed,True,124,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,2606-2,2606,NexPay:1103.19,NexPay:1103.19,True,True,mixed,True,124,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,2606-3,2606,NexPay:1103.19,NexPay:1103.19,True,True,mixed,True,124,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r3,1447-1,1447,"[""B""]",['C'],False,False,rejected,False,0,3,
+r3,1447-2,1447,['B'],['C'],False,False,rejected,False,0,46,
+r3,1447-3,1447,"[""B""]",['C'],False,False,rejected,False,0,3,
+r3,2229-1,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r3,2229-2,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r3,2229-3,2229,,-1.38,False,False,unseen,False,0,0,
+r3,2708-1,2708,SwiftCharge:14.43,D,False,False,rejected,False,0,20,
+r3,2708-2,2708,NexPay:0.00,D,False,False,rejected,False,0,9,
+r3,2708-3,2708,D:281.39,D,True,False,unseen,False,0,0,"official scorer accepts, strict rejects ()"
+r4,1455-1,1455,['B'],B,True,True,accepted,True,93,0,
+r4,1455-2,1455,['B'],B,True,True,accepted,True,93,0,
+r4,1455-3,1455,['F'],B,False,False,rejected,False,0,377,
+r4,2419-1,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r4,2419-2,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r4,2419-3,2419,-9.41664800000000,-9.42,True,True,rejected,False,0,364,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r4,2121-1,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r4,2121-2,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r4,2121-3,2121,-0.10269600000000,0.1,False,False,rejected,False,0,392,
+r4,1577-1,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r4,1577-2,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r4,1577-3,1577,6.580365,6.580365,True,True,accepted,True,777,0,
+r4,1684-1,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+r4,1684-2,1684,"64, 381, 454, 473, 572, 813","64, 381, 454, 473, 572, 813",True,True,accepted,True,411,0,
+r4,1684-3,1684,,"64, 381, 454, 473, 572, 813",False,False,unseen,False,0,0,
+r4,1604-1,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r4,1604-2,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r4,1604-3,1604,5.579686,5.579686,True,True,accepted,True,804,0,
+r4,1892-1,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r4,1892-2,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r4,1892-3,1892,6.30997500000000,6.30997500000000,True,True,accepted,True,494,0,
+r4,2539-1,2539,10160.625971,10160.625971,True,True,accepted,True,156,0,
+r4,2539-2,2539,10160.625971,10160.625971,True,True,accepted,True,156,0,
+r4,2539-3,2539,10160.625971,10160.625971,True,True,accepted,True,156,0,
+r4,2530-1,2530,6690.646000,6690.646000,True,True,mixed,True,125,1,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,2530-2,2530,6690.646000,6690.646000,True,True,mixed,True,125,1,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,2530-3,2530,6690.646000,6690.646000,True,True,mixed,True,125,1,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,2771-1,2771,G:1108.61,E,False,False,rejected,False,0,22,
+r4,2771-2,2771,E:1298.66,E,True,False,rejected,False,0,19,"official scorer accepts, strict rejects (); leaderboard rejected this exact answer: our answer key or tolerance let it through"
+r4,2771-3,2771,G:1108.61,E,False,False,rejected,False,0,22,
+r4,1287-1,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r4,1287-2,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r4,1287-3,1287,2.792051,2.792051,True,True,accepted,True,565,0,
+r4,2759-1,2759,TransactPlus:90665.36,TransactPlus:90665.36,True,True,mixed,True,123,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,2759-2,2759,TransactPlus:90665.36,TransactPlus:90665.36,True,True,mixed,True,123,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,2759-3,2759,TransactPlus:90665.36,TransactPlus:90665.36,True,True,mixed,True,123,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,1538-1,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r4,1538-2,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r4,1538-3,1538,5.625868,5.625868,True,True,accepted,True,799,0,
+r4,2584-1,2584,NexPay:372.69,NexPay:372.69,True,True,mixed,True,128,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,2584-2,2584,NexPay:372.69,NexPay:372.69,True,True,mixed,True,128,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,2584-3,2584,NexPay:372.69,NexPay:372.69,True,True,mixed,True,128,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,1731-1,1731,24.91,24.91,True,True,mixed,True,237,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,1731-2,1731,24.91,24.91,True,True,mixed,True,237,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,1731-3,1731,24.91,24.91,True,True,mixed,True,237,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,1715-1,1715,9.17,9.17,True,True,mixed,True,220,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,1715-2,1715,9.17,9.17,True,True,mixed,True,220,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,1715-3,1715,9.17,9.17,True,True,mixed,True,220,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,2441-1,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r4,2441-2,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r4,2441-3,2441,-2.87721200000000,-2.88,True,True,rejected,False,0,367,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r4,1438-1,1438,"8021, 8011","5411, 5412, 5499, 5812, 5911, 5983",False,False,unseen,False,0,0,
+r4,1438-2,1438,"7298, 7991, 8011, 8021, 8049, 8062","5411, 5412, 5499, 5812, 5911, 5983",False,False,rejected,False,0,77,
+r4,1438-3,1438,"8011, 8021","5411, 5412, 5499, 5812, 5911, 5983",False,False,rejected,False,0,31,
+r4,2316-1,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r4,2316-2,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r4,2316-3,2316,0.05853600000000,0.06,False,False,rejected,False,0,440,
+r4,1511-1,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r4,1511-2,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r4,1511-3,1511,GlobalCard,GlobalCard,True,True,accepted,True,923,0,
+r4,2641-1,2641,TransactPlus:3561.77,TransactPlus:3561.77,True,True,accepted,True,132,0,
+r4,2641-2,2641,TransactPlus:3561.77,TransactPlus:3561.77,True,True,accepted,True,132,0,
+r4,2641-3,2641,TransactPlus:3561.77,TransactPlus:3561.77,True,True,accepted,True,132,0,
+r4,2606-1,2606,NexPay:1103.19,NexPay:1103.19,True,True,mixed,True,124,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,2606-2,2606,NexPay:1103.19,NexPay:1103.19,True,True,mixed,True,124,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,2606-3,2606,NexPay:1103.19,NexPay:1103.19,True,True,mixed,True,124,5,leaderboard both accepted and rejected this exact answer (scorer changed over time?)
+r4,1447-1,1447,[C],['C'],True,True,accepted,True,35,0,
+r4,1447-2,1447,"[""B""]",['C'],False,False,rejected,False,0,3,
+r4,1447-3,1447,"[""B""]",['C'],False,False,rejected,False,0,3,
+r4,2229-1,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r4,2229-2,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r4,2229-3,2229,-1.37683100000000,-1.38,True,True,rejected,False,0,349,leaderboard rejected this exact answer: our answer key or tolerance let it through
+r4,2708-1,2708,D:281.38,D,True,False,rejected,False,0,27,"official scorer accepts, strict rejects (); leaderboard rejected this exact answer: our answer key or tolerance let it through"
+r4,2708-2,2708,G:213.69,D,False,False,rejected,False,0,39,
+r4,2708-3,2708,G:213.69,D,False,False,rejected,False,0,39,

@@ -1,0 +1,674 @@
+[
+  {
+    "task_id": "1694",
+    "question": "For the 12th of the year 2023, what are the Fee IDs applicable to Golfclub_Baron_Friso?",
+    "family": "applicable_fee_ids",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 2,
+      "heldout-docs": 2,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1753",
+    "question": "What were the applicable Fee IDs for Belles_cookbook_store in March 2023?",
+    "family": "applicable_fee_ids",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1771",
+    "question": "What were the applicable Fee IDs for Crossfit_Hanna in September 2023?",
+    "family": "applicable_fee_ids",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 2,
+      "heldout-docs": 1,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1749",
+    "question": "What are the total fees (in euros) that Martinis_Fine_Steakhouse paid in 2023?",
+    "family": "total_fees_paid",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1717",
+    "question": "For the 10th of the year 2023, what is the total fees (in euros) that Crossfit_Hanna should pay?",
+    "family": "total_fees_paid",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1724",
+    "question": "For the 12th of the year 2023, what is the total fees (in euros) that Golfclub_Baron_Friso should pay?",
+    "family": "total_fees_paid",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2385",
+    "question": "In April 2023 what delta would Rafa_AI pay if the relative fee of the fee with ID=17 changed to 1?",
+    "family": "relative_fee_delta",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 0
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2439",
+    "question": "In September 2023 what delta would Rafa_AI pay if the relative fee of the fee with ID=276 changed to 1?",
+    "family": "relative_fee_delta",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 0
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2493",
+    "question": "In the year 2023 what delta would Golfclub_Baron_Friso pay if the relative fee of the fee with ID=64 changed to 1?",
+    "family": "relative_fee_delta",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2536",
+    "question": "Imagine the merchant Crossfit_Hanna had changed its MCC code to 5999 before 2023 started, what amount delta will it have to pay in fees for the year 2023?",
+    "family": "mcc_change_delta",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2538",
+    "question": "Imagine the merchant Golfclub_Baron_Friso had changed its MCC code to 8062 before 2023 started, what amount delta will it have to pay in fees for the year 2023?",
+    "family": "mcc_change_delta",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2549",
+    "question": "Imagine the merchant Rafa_AI had changed its MCC code to 5411 before 2023 started, what amount delta will it have to pay in fees for the year 2023?",
+    "family": "mcc_change_delta",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2715",
+    "question": "For Martinis_Fine_Steakhouse in April, if we were to move the fraudulent transactions towards a different Authorization Characteristics Indicator (ACI) by incentivizing users to use a different interaction, what would be the preferred choice considering the lowest possible fees?",
+    "family": "fraud_aci_steering",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 0
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2746",
+    "question": "For Rafa_AI in October, if we were to move the fraudulent transactions towards a different Authorization Characteristics Indicator (ACI) by incentivizing users to use a different interaction, what would be the preferred choice considering the lowest possible fees?",
+    "family": "fraud_aci_steering",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 0
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2712",
+    "question": "For Belles_cookbook_store in April, if we were to move the fraudulent transactions towards a different Authorization Characteristics Indicator (ACI) by incentivizing users to use a different interaction, what would be the preferred choice considering the lowest possible fees?",
+    "family": "fraud_aci_steering",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 0
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2761",
+    "question": "Looking at the year 2023, to which card scheme should the merchant Golfclub_Baron_Friso steer traffic to in order to pay the maximum fees?",
+    "family": "card_scheme_steering",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2758",
+    "question": "Looking at the year 2023, to which card scheme should the merchant Belles_cookbook_store steer traffic to in order to pay the minimum fees?",
+    "family": "card_scheme_steering",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2608",
+    "question": "Looking at the month of April, to which card scheme should the merchant Belles_cookbook_store steer traffic in order to pay the minimum fees?",
+    "family": "card_scheme_steering",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1448",
+    "question": "For a credit transaction of 10 euros on NexPay, what would be the most expensive Authorization Characteristics Indicator (ACI)? In the case of a draw between multiple ACIs, return the ACI with the lowest alphabetical order. Provide the response in a list even if there is only one value.",
+    "family": "most_expensive_aci",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1459",
+    "question": "For a credit transaction of 10000 euros on GlobalCard, what would be the most expensive Authorization Characteristics Indicator (ACI)? In the case of a draw between multiple ACIs, return the ACI with the lowest alphabetical order. Provide the response in a list even if there is only one value.",
+    "family": "most_expensive_aci",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 1,
+      "heldout-docs-notes": 1
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1451",
+    "question": "For a credit transaction of 100 euros on GlobalCard, what would be the most expensive Authorization Characteristics Indicator (ACI)? In the case of a draw between multiple ACIs, return the ACI with the lowest alphabetical order. Provide the response in a list even if there is only one value.",
+    "family": "most_expensive_aci",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 1,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1474",
+    "question": "What is the fee ID or IDs that apply to account_type = D and aci = E?",
+    "family": "fee_ids_by_account_aci",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 1,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1463",
+    "question": "What is the fee ID or IDs that apply to account_type = R and aci = A?",
+    "family": "fee_ids_by_account_aci",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1485",
+    "question": "What is the fee ID or IDs that apply to account_type = F and aci = B?",
+    "family": "fee_ids_by_account_aci",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 1,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1631",
+    "question": "For account type F, what would be the average fee that the card scheme SwiftCharge would charge for a transaction value of 500 EUR? Provide the answer in EUR and 6 decimals.",
+    "family": "average_fee_for_scheme",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 1,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1289",
+    "question": "For credit transactions, what would be the average fee that the card scheme GlobalCard would charge for a transaction value of 1000 EUR?",
+    "family": "average_fee_for_scheme",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 2,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1305",
+    "question": "For account type H and the MCC description: Eating Places and Restaurants, what would be the average fee that the card scheme GlobalCard would charge for a transaction value of 10 EUR? Provide the answer in EUR and 6 decimals",
+    "family": "average_fee_for_scheme",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 1,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1520",
+    "question": "In the average scenario, which card scheme would provide the most expensive fee for a transaction value of 4321 EUR?",
+    "family": "cheapest_or_priciest_scheme",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1516",
+    "question": "In the average scenario, which card scheme would provide the most expensive fee for a transaction value of 5000 EUR?",
+    "family": "cheapest_or_priciest_scheme",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1519",
+    "question": "In the average scenario, which card scheme would provide the cheapest fee for a transaction value of 4321 EUR?",
+    "family": "cheapest_or_priciest_scheme",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 2,
+      "heldout-docs-notes": 2
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1442",
+    "question": "What is the most expensive MCC for a transaction of 50000 euros, in general? If there are many MCCs with the same value, list all of them. Provide a list as an output even if it is one element.",
+    "family": "most_expensive_mcc",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 0,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 0
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1437",
+    "question": "What is the most expensive MCC for a transaction of 100 euros, in general? If there are many MCCs with the same value, list all of them. Provide a list as an output even if it is one element.",
+    "family": "most_expensive_mcc",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 1,
+      "heldout-docs": 2,
+      "heldout-docs-notes": 0
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "1436",
+    "question": "What is the most expensive MCC for a transaction of 50 euros, in general? If there are many MCCs with the same value, list all of them. Provide a list as an output even if it is one element.",
+    "family": "most_expensive_mcc",
+    "family_seen": true,
+    "scores": {
+      "heldout-tables": 2,
+      "heldout-docs": 2,
+      "heldout-docs-notes": 0
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2556",
+    "question": "During 2023, imagine if the Fee with ID 64 was only applied to account type F, which merchants would have been affected by this change?",
+    "family": "fee_restricted_to_account_type",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2574",
+    "question": "During 2023, imagine if the Fee with ID 787 was only applied to account type F, which merchants would have been affected by this change?",
+    "family": "fee_restricted_to_account_type",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 1,
+      "heldout-docs": 0,
+      "heldout-docs-notes": 0
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2557",
+    "question": "During 2023, imagine if the Fee with ID 64 was only applied to account type S, which merchants would have been affected by this change?",
+    "family": "fee_restricted_to_account_type",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 2,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2526",
+    "question": "In 2023, which merchants were affected by the Fee with ID 709?",
+    "family": "merchants_affected_by_fee",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2525",
+    "question": "In 2023, which merchants were affected by the Fee with ID 65?",
+    "family": "merchants_affected_by_fee",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 2,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "2523",
+    "question": "In 2023, which merchants were affected by the Fee with ID 12?",
+    "family": "merchants_affected_by_fee",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "375",
+    "question": "What is the average transaction value grouped by issuing_country for Belles_cookbook_store's SwiftCharge transactions between March and April 2023?",
+    "family": "average_transaction_value",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "889",
+    "question": "What is the average transaction value grouped by aci for Crossfit_Hanna's GlobalCard transactions between June and August 2023?",
+    "family": "average_transaction_value",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  },
+  {
+    "task_id": "842",
+    "question": "What is the average transaction value grouped by acquirer_country for Crossfit_Hanna's TransactPlus transactions between November and December 2023?",
+    "family": "average_transaction_value",
+    "family_seen": false,
+    "scores": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    },
+    "runs_per_setup": {
+      "heldout-tables": 3,
+      "heldout-docs": 3,
+      "heldout-docs-notes": 3
+    }
+  }
+]

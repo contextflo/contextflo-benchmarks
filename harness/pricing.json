@@ -1,0 +1,20 @@
+{
+  "_about": "List prices in USD per million tokens, used for the cost columns. Add the model you run before running it; a model with no entry stops the run instead of being priced at a guess. Record where each price came from and when. A model priced higher for long prompts has a long_context block, applied per request when that request's prompt (uncached input + cache reads + cache writes) is above the threshold.",
+  "models": {
+    "claude-haiku-5-5": {
+      "input": 0.10,
+      "output": 0.50,
+      "cache_write": 0.125,
+      "cache_read": 0.01,
+      "long_context": {
+        "above_prompt_tokens": 100000,
+        "input": 0.50,
+        "output": 2.50,
+        "cache_write": 0.625,
+        "cache_read": 0.05
+      },
+      "source": "Anthropic model pricing ($0.10 / $0.50 per MTok, $0.50 / $2.50 above 100K prompt tokens). Cache writes priced at 1.25x input (5-minute TTL) and reads at 0.1x, the standard multipliers; the long-context cache rates assume the same multipliers.",
+      "as_of": "2026-11-09"
+    }
+  }
+}

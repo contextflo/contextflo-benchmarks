@@ -1,0 +1,104 @@
+{
+  "raw": {
+    "runs": 75,
+    "current_correct": 23,
+    "strict_correct": 23,
+    "evidence_correct": 14,
+    "questions_all_3_evidence": 3,
+    "questions_all_3_current": 6,
+    "questions_all_3_strict": 6,
+    "distinct_answers": 43,
+    "distinct_by_official": {
+      "accepted": 7,
+      "rejected": 27,
+      "mixed": 0,
+      "unseen": 9
+    },
+    "runs_with_disagreement": 9
+  },
+  "docs": {
+    "runs": 75,
+    "current_correct": 21,
+    "strict_correct": 21,
+    "evidence_correct": 12,
+    "questions_all_3_evidence": 3,
+    "questions_all_3_current": 6,
+    "questions_all_3_strict": 6,
+    "distinct_answers": 44,
+    "distinct_by_official": {
+      "accepted": 5,
+      "rejected": 32,
+      "mixed": 0,
+      "unseen": 7
+    },
+    "runs_with_disagreement": 9
+  },
+  "r1": {
+    "runs": 75,
+    "current_correct": 32,
+    "strict_correct": 32,
+    "evidence_correct": 23,
+    "questions_all_3_evidence": 7,
+    "questions_all_3_current": 10,
+    "questions_all_3_strict": 10,
+    "distinct_answers": 39,
+    "distinct_by_official": {
+      "accepted": 8,
+      "rejected": 24,
+      "mixed": 0,
+      "unseen": 7
+    },
+    "runs_with_disagreement": 9
+  },
+  "r2": {
+    "runs": 75,
+    "current_correct": 54,
+    "strict_correct": 53,
+    "evidence_correct": 44,
+    "questions_all_3_evidence": 14,
+    "questions_all_3_current": 17,
+    "questions_all_3_strict": 17,
+    "distinct_answers": 31,
+    "distinct_by_official": {
+      "accepted": 10,
+      "rejected": 13,
+      "mixed": 6,
+      "unseen": 2
+    },
+    "runs_with_disagreement": 27
+  },
+  "r3": {
+    "runs": 75,
+    "current_correct": 55,
+    "strict_correct": 53,
+    "evidence_correct": 45,
+    "questions_all_3_evidence": 13,
+    "questions_all_3_current": 15,
+    "questions_all_3_strict": 15,
+    "distinct_answers": 35,
+    "distinct_by_official": {
+      "accepted": 10,
+      "rejected": 16,
+      "mixed": 6,
+      "unseen": 3
+    },
+    "runs_with_disagreement": 26
+  },
+  "r4": {
+    "runs": 75,
+    "current_correct": 58,
+    "strict_correct": 56,
+    "evidence_correct": 47,
+    "questions_all_3_evidence": 14,
+    "questions_all_3_current": 17,
+    "questions_all_3_strict": 17,
+    "distinct_answers": 32,
+    "distinct_by_official": {
+      "accepted": 11,
+      "rejected": 13,
+      "mixed": 6,
+      "unseen": 2
+    },
+    "runs_with_disagreement": 29
+  }
+}

@@ -1,0 +1,593 @@
+{
+  "heldout-tables": {
+    "folder": "results/20261117T092622Z__dabstep__heldout-tables__claude-haiku-5-5",
+    "context_hashes": [
+      "a5b1e9c7b3d5f2dd06bcff8ef68f1ccb06fb9f4104e6ef691e745bd393d43046"
+    ],
+    "tasks": 42,
+    "runs": 126,
+    "evidence_correct": 50,
+    "evidence_accuracy": 0.3968,
+    "strict_accuracy": 0.3968,
+    "current_accuracy": 0.3968,
+    "tasks_right_every_run": 13,
+    "tasks_never_right": 21,
+    "unverified_runs": 12,
+    "seen_families": {
+      "tasks": 30,
+      "runs": 90,
+      "evidence_correct": 23,
+      "evidence_accuracy": 0.2556,
+      "strict_accuracy": 0.2556,
+      "current_accuracy": 0.2556,
+      "tasks_right_every_run": 5,
+      "tasks_never_right": 20,
+      "unverified_runs": 12
+    },
+    "unseen_families": {
+      "tasks": 12,
+      "runs": 36,
+      "evidence_correct": 27,
+      "evidence_accuracy": 0.75,
+      "strict_accuracy": 0.75,
+      "current_accuracy": 0.75,
+      "tasks_right_every_run": 8,
+      "tasks_never_right": 1,
+      "unverified_runs": 0
+    },
+    "by_family": {
+      "applicable_fee_ids": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 7,
+        "evidence_accuracy": 0.7778,
+        "strict_accuracy": 0.7778,
+        "current_accuracy": 0.7778,
+        "tasks_right_every_run": 1,
+        "tasks_never_right": 0,
+        "unverified_runs": 1
+      },
+      "average_fee_for_scheme": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 1,
+        "evidence_accuracy": 0.1111,
+        "strict_accuracy": 0.1111,
+        "current_accuracy": 0.1111,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 2,
+        "unverified_runs": 0
+      },
+      "average_transaction_value": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "card_scheme_steering": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.0,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 2
+      },
+      "cheapest_or_priciest_scheme": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "fee_ids_by_account_aci": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 2,
+        "evidence_accuracy": 0.2222,
+        "strict_accuracy": 0.2222,
+        "current_accuracy": 0.2222,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 1,
+        "unverified_runs": 0
+      },
+      "fee_restricted_to_account_type": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 7,
+        "evidence_accuracy": 0.7778,
+        "strict_accuracy": 0.7778,
+        "current_accuracy": 0.7778,
+        "tasks_right_every_run": 2,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "fraud_aci_steering": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.0,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 2
+      },
+      "mcc_change_delta": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.0,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 1
+      },
+      "merchants_affected_by_fee": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "most_expensive_aci": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.0,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 0
+      },
+      "most_expensive_mcc": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 3,
+        "evidence_accuracy": 0.3333,
+        "strict_accuracy": 0.3333,
+        "current_accuracy": 0.3333,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 1,
+        "unverified_runs": 2
+      },
+      "relative_fee_delta": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 3,
+        "evidence_accuracy": 0.3333,
+        "strict_accuracy": 0.3333,
+        "current_accuracy": 0.3333,
+        "tasks_right_every_run": 1,
+        "tasks_never_right": 2,
+        "unverified_runs": 0
+      },
+      "total_fees_paid": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.0,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 4
+      }
+    },
+    "model_cost_usd": 6.0925,
+    "model_cost_per_run_usd": 0.04835,
+    "mean_wall_seconds": 41.3,
+    "mean_billed_bytes": 42900074
+  },
+  "heldout-docs": {
+    "folder": "results/20261117T110112Z__dabstep__heldout-docs__claude-haiku-5-5",
+    "context_hashes": [
+      "dceda73e59cad5ac5c7812bb241c154e1c29bac6f1189f81a4bc4f0387d2efc7"
+    ],
+    "tasks": 42,
+    "runs": 126,
+    "evidence_correct": 45,
+    "evidence_accuracy": 0.3571,
+    "strict_accuracy": 0.3571,
+    "current_accuracy": 0.3571,
+    "tasks_right_every_run": 9,
+    "tasks_never_right": 22,
+    "unverified_runs": 19,
+    "seen_families": {
+      "tasks": 30,
+      "runs": 90,
+      "evidence_correct": 23,
+      "evidence_accuracy": 0.2556,
+      "strict_accuracy": 0.2556,
+      "current_accuracy": 0.2556,
+      "tasks_right_every_run": 3,
+      "tasks_never_right": 18,
+      "unverified_runs": 19
+    },
+    "unseen_families": {
+      "tasks": 12,
+      "runs": 36,
+      "evidence_correct": 22,
+      "evidence_accuracy": 0.6111,
+      "strict_accuracy": 0.6111,
+      "current_accuracy": 0.6111,
+      "tasks_right_every_run": 6,
+      "tasks_never_right": 4,
+      "unverified_runs": 0
+    },
+    "by_family": {
+      "applicable_fee_ids": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 3,
+        "evidence_accuracy": 0.3333,
+        "strict_accuracy": 0.3333,
+        "current_accuracy": 0.3333,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 1,
+        "unverified_runs": 6
+      },
+      "average_fee_for_scheme": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 3,
+        "evidence_accuracy": 0.3333,
+        "strict_accuracy": 0.3333,
+        "current_accuracy": 0.3333,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 1,
+        "unverified_runs": 0
+      },
+      "average_transaction_value": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "card_scheme_steering": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.0,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 0
+      },
+      "cheapest_or_priciest_scheme": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 8,
+        "evidence_accuracy": 0.8889,
+        "strict_accuracy": 0.8889,
+        "current_accuracy": 0.8889,
+        "tasks_right_every_run": 2,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "fee_ids_by_account_aci": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.0,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 0
+      },
+      "fee_restricted_to_account_type": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 5,
+        "evidence_accuracy": 0.5556,
+        "strict_accuracy": 0.5556,
+        "current_accuracy": 0.5556,
+        "tasks_right_every_run": 1,
+        "tasks_never_right": 1,
+        "unverified_runs": 0
+      },
+      "fraud_aci_steering": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.0,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 4
+      },
+      "mcc_change_delta": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.0,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 1
+      },
+      "merchants_affected_by_fee": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 8,
+        "evidence_accuracy": 0.8889,
+        "strict_accuracy": 0.8889,
+        "current_accuracy": 0.8889,
+        "tasks_right_every_run": 2,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "most_expensive_aci": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 2,
+        "evidence_accuracy": 0.2222,
+        "strict_accuracy": 0.2222,
+        "current_accuracy": 0.2222,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 1,
+        "unverified_runs": 0
+      },
+      "most_expensive_mcc": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 4,
+        "evidence_accuracy": 0.4444,
+        "strict_accuracy": 0.4444,
+        "current_accuracy": 0.4444,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 1,
+        "unverified_runs": 7
+      },
+      "relative_fee_delta": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 3,
+        "evidence_accuracy": 0.3333,
+        "strict_accuracy": 0.3333,
+        "current_accuracy": 0.3333,
+        "tasks_right_every_run": 1,
+        "tasks_never_right": 2,
+        "unverified_runs": 1
+      },
+      "total_fees_paid": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.0,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 0
+      }
+    },
+    "model_cost_usd": 2.0285,
+    "model_cost_per_run_usd": 0.0161,
+    "mean_wall_seconds": 43.5,
+    "mean_billed_bytes": 50539699
+  },
+  "heldout-docs-notes": {
+    "folder": "results/20261117T081655Z__dabstep__heldout-docs-notes__claude-haiku-5-5",
+    "context_hashes": [
+      "c01defee3d2703b662cc7aecd4ca44610286e56e73383047a8d3f14b28362941"
+    ],
+    "tasks": 42,
+    "runs": 126,
+    "evidence_correct": 96,
+    "evidence_accuracy": 0.7619,
+    "strict_accuracy": 0.7619,
+    "current_accuracy": 0.7698,
+    "tasks_right_every_run": 31,
+    "tasks_never_right": 9,
+    "unverified_runs": 2,
+    "seen_families": {
+      "tasks": 30,
+      "runs": 90,
+      "evidence_correct": 63,
+      "evidence_accuracy": 0.7,
+      "strict_accuracy": 0.7,
+      "current_accuracy": 0.7111,
+      "tasks_right_every_run": 20,
+      "tasks_never_right": 8,
+      "unverified_runs": 2
+    },
+    "unseen_families": {
+      "tasks": 12,
+      "runs": 36,
+      "evidence_correct": 33,
+      "evidence_accuracy": 0.9167,
+      "strict_accuracy": 0.9167,
+      "current_accuracy": 0.9167,
+      "tasks_right_every_run": 11,
+      "tasks_never_right": 1,
+      "unverified_runs": 0
+    },
+    "by_family": {
+      "applicable_fee_ids": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "average_fee_for_scheme": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "average_transaction_value": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "card_scheme_steering": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "cheapest_or_priciest_scheme": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 8,
+        "evidence_accuracy": 0.8889,
+        "strict_accuracy": 0.8889,
+        "current_accuracy": 0.8889,
+        "tasks_right_every_run": 2,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "fee_ids_by_account_aci": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "fee_restricted_to_account_type": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 6,
+        "evidence_accuracy": 0.6667,
+        "strict_accuracy": 0.6667,
+        "current_accuracy": 0.6667,
+        "tasks_right_every_run": 2,
+        "tasks_never_right": 1,
+        "unverified_runs": 0
+      },
+      "fraud_aci_steering": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.1111,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 0
+      },
+      "mcc_change_delta": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "merchants_affected_by_fee": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      },
+      "most_expensive_aci": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 7,
+        "evidence_accuracy": 0.7778,
+        "strict_accuracy": 0.7778,
+        "current_accuracy": 0.7778,
+        "tasks_right_every_run": 2,
+        "tasks_never_right": 0,
+        "unverified_runs": 1
+      },
+      "most_expensive_mcc": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 0,
+        "evidence_accuracy": 0.0,
+        "strict_accuracy": 0.0,
+        "current_accuracy": 0.0,
+        "tasks_right_every_run": 0,
+        "tasks_never_right": 3,
+        "unverified_runs": 0
+      },
+      "relative_fee_delta": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 3,
+        "evidence_accuracy": 0.3333,
+        "strict_accuracy": 0.3333,
+        "current_accuracy": 0.3333,
+        "tasks_right_every_run": 1,
+        "tasks_never_right": 2,
+        "unverified_runs": 1
+      },
+      "total_fees_paid": {
+        "tasks": 3,
+        "runs": 9,
+        "evidence_correct": 9,
+        "evidence_accuracy": 1.0,
+        "strict_accuracy": 1.0,
+        "current_accuracy": 1.0,
+        "tasks_right_every_run": 3,
+        "tasks_never_right": 0,
+        "unverified_runs": 0
+      }
+    },
+    "model_cost_usd": 1.6259,
+    "model_cost_per_run_usd": 0.0129,
+    "mean_wall_seconds": 29.0,
+    "mean_billed_bytes": 32888669
+  }
+}

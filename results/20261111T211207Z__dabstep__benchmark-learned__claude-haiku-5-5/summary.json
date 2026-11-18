@@ -1,0 +1,19 @@
+{
+  "benchmark": "dabstep",
+  "profile": "benchmark-learned",
+  "model": "claude-haiku-5-5",
+  "complete": true,
+  "planned_runs": 75,
+  "runs": 75,
+  "correct": 54,
+  "accuracy": 0.72,
+  "total_cost_usd": 1.135,
+  "cost_per_correct_usd": 0.021,
+  "mean_wall_seconds": 32.5,
+  "mean_tool_calls": 7.5,
+  "mean_sql_writing_tokens": 30583.8,
+  "mean_results_reading_tokens": 1963.7,
+  "mean_bytes_final": 5478777.6,
+  "mean_bytes_exploration": 6360960.8,
+  "runs_with_errors": 0
+}

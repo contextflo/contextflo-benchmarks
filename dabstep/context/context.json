@@ -1,0 +1,108 @@
+{
+  "_about": "The 'with context' state for DABstep. Every description is DABstep's own documentation (data/context/manual.md and payments-readme.md), copied verbatim and only split into the table, column and concept shapes the MCP stores. Nothing here is derived from the tasks or the answers. Two kinds of lines are not from the manual: the one marked [load note], which describes a type change made by transform.py, and the plain one-line column labels for merchant_data.merchant, merchant_data.acquirer and the two lookup tables, which DABstep ships without documentation. Those labels only say what the column holds and add no rules.",
+  "dataset": "dabstep",
+  "tables": [
+    {
+      "table": "payments",
+      "description": "Synthetic dataset of payment transactions processed by the Payments Processor.",
+      "columns": {
+        "psp_reference": "Unique payment identifier (ID).",
+        "merchant": "Merchant name (Categorical), eg Starbucks or Netflix*.",
+        "card_scheme": "Card Scheme used (Categorical) - [MasterCard, Visa, Amex, Other].",
+        "year": "Payment initiation year (Numeric).",
+        "hour_of_day": "Payment initiation hour (Numeric).",
+        "minute_of_hour": "Payment initiation minute (Numeric).",
+        "day_of_year": "Day of the year of payment initiation (Numeric).",
+        "is_credit": "Credit or Debit card indicator (Categorical).",
+        "eur_amount": "Payment amount in euro (Numeric).",
+        "ip_country": "The country the shopper was in at time of transaction (determined by IP address) (Categorical) - [SE, NL, LU, IT, BE, FR, GR, ES].",
+        "issuing_country": "Card-issuing country (Categorical) - [SE, NL, LU, IT, BE, FR, GR, ES].",
+        "device_type": "Device type used (Categorical) - [Windows, Linux, MacOS, iOS, Android, Other].",
+        "ip_address": "Hashed shopper's IP (ID).",
+        "email_address": "Hashed shopper's email (ID).",
+        "card_number": "Hashed card number (ID).",
+        "shopper_interaction": "Payment method (Categorical) - [Ecommerce, POS]. POS means an in-person or in-store transaction.",
+        "card_bin": "Bank Identification Number (ID).",
+        "has_fraudulent_dispute": "Indicator of fraudulent dispute from issuing bank (Boolean).",
+        "is_refused_by_adyen": "Adyen refusal indicator (Boolean).",
+        "aci": "Authorization Characteristics Indicator (Categorical).",
+        "acquirer_country": "The location (country) of the acquiring bank (Categorical) - [SE, NL, LU, IT, BE, FR, GR, ES]."
+      }
+    },
+    {
+      "table": "fees",
+      "description": "The full list of fee rules and values. Payment Processing Fees depend on a number of characteristics. These characteristics belong to either the merchant or the transaction. The fee then is provided by fee = fixed_amount + rate * transaction_value / 10000. If a field is set to null it means that it applies to all possible values of that field. E.g. null value in aci means that the rules applies for all possible values of aci.",
+      "columns": {
+        "ID": "identifier of the fee rule within the rule fee dataset",
+        "card_scheme": "string type. name of the card scheme or network that the fee applies to",
+        "account_type": "list type. list of account types according to the categorization `Account Type` in this manual",
+        "capture_delay": "string type. rule that specifies the number of days in which the capture from authorization to settlement needs to happen. Possible values are '3-5' (between 3 and 5 days), '>5' (more than 5 days is possible), '<3' (before 3 days), 'immediate', or 'manual'. The faster the capture to settlement happens, the more expensive it is.",
+        "monthly_fraud_level": "string type. rule that specifies the fraud levels measured as ratio between monthly total volume and monthly volume notified as fraud. For example '7.7%-8.3%' means that the ratio should be between 7.7 and 8.3 percent. Generally, the payment processors will become more expensive as fraud rate increases.",
+        "monthly_volume": "string type. rule that specifies the monthly total volume of the merchant. '100k-1m' is between 100.000 (100k) and 1.000.000 (1m). All volumes are specified in euros. Normally merchants with higher volume are able to get cheaper fees from payments processors.",
+        "merchant_category_code": "list type. integer that specifies the possible merchant category codes, according to the categorization found in this manual in the section `Merchant Category Code`. eg: `[8062, 8011, 8021]`.",
+        "is_credit": "bool. True if the rule applies for credit transactions. Typically credit transactions are more expensive (higher fee).",
+        "aci": "list type. string that specifies an array of possible Authorization Characteristics Indicator (ACI) according to the categorization specified in this manual in the section `Authorization Characteristics Indicator`.",
+        "fixed_amount": "float. Fixed amount of the fee in euros per transaction, for the given rule.",
+        "rate": "integer. Variable rate to be especified to be multiplied by the transaction value and divided by 10000.",
+        "intracountry": "bool. True if the transaction is domestic, defined by the fact that the issuer country and the acquiring country are the same. False are for international transactions where the issuer country and acquirer country are different and typically are more expensive. [load note] Stored as an integer: 1 = true, 0 = false."
+      }
+    },
+    {
+      "table": "merchant_data",
+      "description": "Merchant characteristics used by the fee rules. We categorize merchants into different account types based on their business model and industry classification.",
+      "columns": {
+        "merchant": "Merchant name.",
+        "capture_delay": "the number of days in which the capture from authorization to settlement happens. Possible values are '3-5' (between 3 and 5 days), '>5' (more than 5 days is possible), '<3' (before 3 days), 'immediate', or 'manual'.",
+        "acquirer": "list of acquiring banks the merchant processes with.",
+        "merchant_category_code": "The Merchant Category Code (MCC) is a four-digit code assigned to a merchant by the card networks, also known as schemes (e.g. Visa, Mastercard), to categorize their business type.",
+        "account_type": "account type according to the categorization `Account Type`: R Enterprise - Retail, D Enterprise - Digital, H Enterprise - Hospitality, F Platform - Franchise, S Platform - SaaS, O Other."
+      }
+    },
+    {
+      "table": "merchant_category_codes",
+      "description": "A complete list of MCC. The first two digits of the MCC indicate the category, while the last two digits indicate the subcategory.",
+      "columns": {
+        "mcc": "four-digit Merchant Category Code.",
+        "description": "the business type the code stands for."
+      }
+    },
+    {
+      "table": "acquirer_countries",
+      "description": "The country of each acquiring bank.",
+      "columns": {
+        "acquirer": "acquiring bank name, as used in merchant_data.acquirer.",
+        "country_code": "country of the acquirer."
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Payment processing fee",
+      "description": "fee = fixed_amount + rate * transaction_value / 10000. Fixed amount and transaction values are given in the same currency, typically euros. Payment Processing Fees depend on a number of characteristics. These characteristics belong to either the merchant or the transaction. The full list of fee rules is the fees table."
+    },
+    {
+      "name": "Fee rule null means all values",
+      "description": "If a field is set to null it means that it applies to all possible values of that field. E.g. null value in aci means that the rules applies for all possible values of aci."
+    },
+    {
+      "name": "Monthly volume and monthly fraud level",
+      "description": "Monthly volumes and rates are computed always in natural months (e.g. January, February), starting always in day 1 and ending in the last natural day of the month (i.e. 28 for February, 30 or 31). Fraud is defined as the ratio of fraudulent volume over total volume. monthly_volume is the monthly total volume of the merchant in euros; '100k-1m' is between 100.000 (100k) and 1.000.000 (1m)."
+    },
+    {
+      "name": "Intracountry (local acquiring)",
+      "description": "A transaction is domestic (intracountry) when the issuer country and the acquiring country are the same. Local acquiring refers to the scenario where the issuer country is the same as the acquirer country. International transactions, where the issuer country and acquirer country are different, typically are more expensive."
+    },
+    {
+      "name": "Account type",
+      "description": "We categorize merchants into different account types based on their business model and industry classification: R Enterprise - Retail, D Enterprise - Digital, H Enterprise - Hospitality, F Platform - Franchise, S Platform - SaaS, O Other."
+    },
+    {
+      "name": "Authorization Characteristics Indicator (ACI)",
+      "description": "Identifies the transaction flow submitted to the acquirer. A Card present - Non-authenticated, B Card Present - Authenticated, C Tokenized card with mobile device, D Card Not Present - Card On File, E Card Not Present - Recurring Bill Payment, F Card Not Present - 3-D Secure, G Card Not Present - Non-3-D Secure."
+    },
+    {
+      "name": "Capture delay",
+      "description": "The number of days in which the capture from authorization to settlement needs to happen. Possible values are '3-5' (between 3 and 5 days), '>5' (more than 5 days is possible), '<3' (before 3 days), 'immediate', or 'manual'. The faster the capture to settlement happens, the more expensive it is."
+    }
+  ]
+}

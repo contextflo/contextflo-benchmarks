@@ -1,0 +1,29 @@
+{
+  "about": "Rules the DABstep documentation leaves unwritten, found by reading the misses of the docs-only runs (results of 2026-11-10). Each is added to the learned org as a business concept, one at a time, in this order, with a full run after each. 'found_in' lists the tasks whose misses revealed it.",
+  "rules": [
+    {
+      "id": "empty-means-all",
+      "found_in": ["1538", "1577", "1604", "2530", "2539", "2606", "2759", "1731"],
+      "name": "Fee rule wildcards are empty lists, not nulls",
+      "description": "In the fees table, the list fields account_type, merchant_category_code and aci are never NULL. A rule that applies to every value stores an EMPTY list. So a rule matches a value when the list is empty OR contains the value: (ARRAY_LENGTH(aci) = 0 OR 'B' IN UNNEST(aci)). The scalar fields is_credit, intracountry, capture_delay, monthly_volume and monthly_fraud_level use NULL for 'applies to all': a credit transaction matches rules with is_credit = TRUE OR is_credit IS NULL."
+    },
+    {
+      "id": "sum-all-matching-rules",
+      "found_in": ["1731", "1715", "2539", "2530", "2641", "2759", "2584"],
+      "name": "A transaction pays every fee rule it matches",
+      "description": "A transaction can match several fee rules. Its fee is the SUM over all matching rules of (fixed_amount + rate * eur_amount / 10000), not the first, lowest-id, cheapest or most specific rule. A total for a merchant and period is the sum over all its transactions and all their matching rules. Transactions that match no rule pay nothing."
+    },
+    {
+      "id": "monthly-buckets",
+      "found_in": ["2539", "2530", "2771", "2708", "2759", "1715"],
+      "name": "Monthly volume and fraud level are per natural month, by euro volume",
+      "description": "To match monthly_volume and monthly_fraud_level for a transaction, compute them for the merchant over the natural calendar month the transaction falls in (January = days 1-31 of the year, and so on), never as a yearly average. monthly_volume is the sum of eur_amount in that month. monthly_fraud_level is fraudulent eur_amount divided by total eur_amount in that month (by euro volume, not by transaction count). Each month of a year can fall in a different band, so match rules month by month."
+    },
+    {
+      "id": "steering-questions",
+      "found_in": ["2771", "2708", "2606", "2584", "2641", "2759"],
+      "name": "How to answer 'steer traffic' and 'move transactions to another ACI' questions",
+      "description": "'To which card scheme should the merchant steer traffic' means: re-price ALL of the merchant's transactions in the period as if each one had gone through that card scheme (keep every other transaction attribute), total the fees per scheme, and answer with the scheme and its total. Do not compare schemes only on the transactions each already processed. 'Move the fraudulent transactions to a different ACI' means: re-price the merchant's fraudulent transactions in the period as if each had that ACI, total per candidate ACI, and answer with the ACI (not a card scheme)."
+    }
+  ]
+}

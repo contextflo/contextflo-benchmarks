@@ -1,0 +1,212 @@
+[
+  {
+    "task_id": "1694",
+    "family": "applicable_fee_ids",
+    "seen": true
+  },
+  {
+    "task_id": "1753",
+    "family": "applicable_fee_ids",
+    "seen": true
+  },
+  {
+    "task_id": "1771",
+    "family": "applicable_fee_ids",
+    "seen": true
+  },
+  {
+    "task_id": "1749",
+    "family": "total_fees_paid",
+    "seen": true
+  },
+  {
+    "task_id": "1717",
+    "family": "total_fees_paid",
+    "seen": true
+  },
+  {
+    "task_id": "1724",
+    "family": "total_fees_paid",
+    "seen": true
+  },
+  {
+    "task_id": "2385",
+    "family": "relative_fee_delta",
+    "seen": true
+  },
+  {
+    "task_id": "2439",
+    "family": "relative_fee_delta",
+    "seen": true
+  },
+  {
+    "task_id": "2493",
+    "family": "relative_fee_delta",
+    "seen": true
+  },
+  {
+    "task_id": "2536",
+    "family": "mcc_change_delta",
+    "seen": true
+  },
+  {
+    "task_id": "2538",
+    "family": "mcc_change_delta",
+    "seen": true
+  },
+  {
+    "task_id": "2549",
+    "family": "mcc_change_delta",
+    "seen": true
+  },
+  {
+    "task_id": "2715",
+    "family": "fraud_aci_steering",
+    "seen": true
+  },
+  {
+    "task_id": "2746",
+    "family": "fraud_aci_steering",
+    "seen": true
+  },
+  {
+    "task_id": "2712",
+    "family": "fraud_aci_steering",
+    "seen": true
+  },
+  {
+    "task_id": "2761",
+    "family": "card_scheme_steering",
+    "seen": true
+  },
+  {
+    "task_id": "2758",
+    "family": "card_scheme_steering",
+    "seen": true
+  },
+  {
+    "task_id": "2608",
+    "family": "card_scheme_steering",
+    "seen": true
+  },
+  {
+    "task_id": "1448",
+    "family": "most_expensive_aci",
+    "seen": true
+  },
+  {
+    "task_id": "1459",
+    "family": "most_expensive_aci",
+    "seen": true
+  },
+  {
+    "task_id": "1451",
+    "family": "most_expensive_aci",
+    "seen": true
+  },
+  {
+    "task_id": "1474",
+    "family": "fee_ids_by_account_aci",
+    "seen": false
+  },
+  {
+    "task_id": "1463",
+    "family": "fee_ids_by_account_aci",
+    "seen": false
+  },
+  {
+    "task_id": "1485",
+    "family": "fee_ids_by_account_aci",
+    "seen": false
+  },
+  {
+    "task_id": "1631",
+    "family": "average_fee_for_scheme",
+    "seen": true
+  },
+  {
+    "task_id": "1289",
+    "family": "average_fee_for_scheme",
+    "seen": true
+  },
+  {
+    "task_id": "1305",
+    "family": "average_fee_for_scheme",
+    "seen": true
+  },
+  {
+    "task_id": "1520",
+    "family": "cheapest_or_priciest_scheme",
+    "seen": true
+  },
+  {
+    "task_id": "1516",
+    "family": "cheapest_or_priciest_scheme",
+    "seen": true
+  },
+  {
+    "task_id": "1519",
+    "family": "cheapest_or_priciest_scheme",
+    "seen": true
+  },
+  {
+    "task_id": "1442",
+    "family": "most_expensive_mcc",
+    "seen": true
+  },
+  {
+    "task_id": "1437",
+    "family": "most_expensive_mcc",
+    "seen": true
+  },
+  {
+    "task_id": "1436",
+    "family": "most_expensive_mcc",
+    "seen": true
+  },
+  {
+    "task_id": "2556",
+    "family": "fee_restricted_to_account_type",
+    "seen": false
+  },
+  {
+    "task_id": "2574",
+    "family": "fee_restricted_to_account_type",
+    "seen": false
+  },
+  {
+    "task_id": "2557",
+    "family": "fee_restricted_to_account_type",
+    "seen": false
+  },
+  {
+    "task_id": "2526",
+    "family": "merchants_affected_by_fee",
+    "seen": false
+  },
+  {
+    "task_id": "2525",
+    "family": "merchants_affected_by_fee",
+    "seen": false
+  },
+  {
+    "task_id": "2523",
+    "family": "merchants_affected_by_fee",
+    "seen": false
+  },
+  {
+    "task_id": "375",
+    "family": "average_transaction_value",
+    "seen": false
+  },
+  {
+    "task_id": "889",
+    "family": "average_transaction_value",
+    "seen": false
+  },
+  {
+    "task_id": "842",
+    "family": "average_transaction_value",
+    "seen": false
+  }
+]

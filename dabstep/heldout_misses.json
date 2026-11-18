@@ -1,0 +1,14 @@
+{
+  "_about": "One hand-written line per held-out question the agent did not get right on every try with docs + notes, from reading those tries' traces (2026-11-17). Describes what the docs + notes setup did, across its 3 tries. Shown at the top of the question in the blog's receipts explorer.",
+  "2385": "The formula was right (price change x the payments that price applies to), but it counted a slightly different set of payments than the official answer, so it got -0.0902 instead of -0.09. Same on all 3 tries. 367 other scoreboard submissions gave this exact wrong number too.",
+  "2439": "The formula was right (price change x the payments that price applies to), but it counted a slightly different set of payments than the official answer, so it got -15.3436 instead of -15.35 (the third try was a hair different again). 384 other scoreboard submissions gave this exact wrong number too.",
+  "2715": "It re-priced the fraudulent payments under each way of paying, as note 4 says, but two tries picked G and the third picked the right option (D) with the wrong cost. The answer needs both.",
+  "2746": "All 3 tries re-priced the fraudulent payments under each way of paying, as note 4 says, and all picked G. The accepted answer is E.",
+  "2712": "It re-priced the fraudulent payments under each way of paying, as note 4 says, but picked F twice and G once. The accepted answer is E.",
+  "1459": "Three tries, three different answers: 'Not Applicable', F, and the right one, B. It wasn't sure how to rank payment methods when no single price row fits the payment exactly.",
+  "1519": "Right on 2 tries. On the third it answered 'Not Applicable', because nothing defines what an 'average scenario' is.",
+  "1442": "It added up every price row that applies to each category, citing the note 'a transaction pays every fee rule it matches', and picked 8011 and 8021 (one try added four more). The accepted answer is 5411, 5412, 5499, 5812, 5911, 5983. The same note broke a similar 'most expensive, in general' question in the case study.",
+  "1437": "Same as question 1442: it added up every matching price row, citing that note, and picked 8011 and 8021 on all 3 tries. With docs alone it got this right on 2 tries, so this is a note making it worse.",
+  "1436": "Same as question 1442: it added up every matching price row, citing that note, and picked 8011 and 8021 on all 3 tries. With docs alone it got this right on 2 tries, so this is a note making it worse.",
+  "2574": "All 3 tries listed three shops, counting both shops that would stop paying the fee and shops that would start. The accepted answer is only Rafa_AI."
+}

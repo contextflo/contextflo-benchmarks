@@ -1,0 +1,23 @@
+{
+  "benchmark": "dabstep",
+  "setup": "heldout-docs",
+  "profile": "benchmark-context",
+  "model": "claude-haiku-5-5",
+  "context_hash": "dceda73e59cad5ac5c7812bb241c154e1c29bac6f1189f81a4bc4f0387d2efc7",
+  "complete": true,
+  "planned_runs": 126,
+  "runs": 126,
+  "correct": 45,
+  "accuracy": 0.3571,
+  "total_cost_usd": 2.0285,
+  "cost_per_correct_usd": 0.0451,
+  "mean_wall_seconds": 43.5,
+  "mean_tool_calls": 8.7,
+  "mean_sql_writing_tokens": 29898.4,
+  "mean_results_reading_tokens": 1689.5,
+  "mean_bytes_final": 3248403.0,
+  "mean_bytes_exploration": 11697570.3,
+  "mean_billed_final": 12566267.9,
+  "mean_billed_exploration": 37973430.9,
+  "runs_with_errors": 0
+}

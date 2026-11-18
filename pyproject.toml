@@ -1,0 +1,16 @@
+[project]
+name = "contextflo-benchmarks"
+version = "0.1.0"
+description = "Reproducible benchmarks for AI agents answering questions over a warehouse through an MCP server"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic",
+    "mcp",
+    "google-cloud-bigquery",
+    "python-dotenv",
+]
+
+[tool.uv]
+package = false
